@@ -1,39 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  
-  <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
-	<title>Objetivo del Squad: 80%</title>
-	<script src="main.js"></script>
-	<link rel="stylesheet" href="main.css">
-</head>
-<body>
-    <div class="container">
-        <h1 class="text-center">Objetivo del Squad: 80%</h1>
-        <div class="row">
-            <div class="col-md-6 col-xs-6" >
-            <p>
-                <label for="">Puntos Squad:</label>
-                <input type="text" id="puntos_squad">
-            </p>
-            <p>
-                <label for="">Cantidad máxima de puntos:</label>
-                <input type="text" id="max_puntos">
-            </p>
-            </div>
-            <div class="col-md-4 col-xs-4">
-                <p>
-                    <button onclick="calcular()">Calcular</button>
-                </p>
-            <h1 id="salida"></h1>
-            </div>
-        </div><!--cierre de row-->
-    </div><!--cierre de container-->
-</body>
-    
-</html>   
+.container
+{
+    background: pink;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin-top: 10%;
+    font-family: 'Aref Ruqaa', serif;
+    width: 50%;
+} 
+.container .col-md-4
+{
+  padding:0 5% 0 5%;   
+}
