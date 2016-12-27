@@ -15,7 +15,7 @@ function calcular()
 	if (n>21)
     {
         diff = n-21;
-        salida.innerHTML="Es el doble de la diferencia absoluta: " + (diff*2); 
+        salida.innerHTML="Es el doble: " + (diff*2); 
 	}
 	else 
     {
