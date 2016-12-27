@@ -2,6 +2,7 @@ function calcular()
 {
 	var n = document.getElementById("n").value;
 	var diff;
+    var salida =document.getElementById("salida");
 
 	/*- Si n>21 entonces 
     - diff = n-21
@@ -12,16 +13,15 @@ function calcular()
 
 	
 	if (n>21)
-			
-	{
-		diff = n-21	
-		salida.innerHTML ="Doble de la diferencia "(diff*2);
+    {
+        diff = n-21;
+        salida.innerHTML="Es el doble de la diferencia absoluta: " + (diff*2); 
 	}
 	else 
-		{
-			diff = 21-n
-			salida.innerHTML = diff;
-		}
+    {
+        diff = 21-n;
+        salida.innerHTML = diff;
+    }
 	
 }
 
